@@ -13,6 +13,8 @@ function App() {
         <img></img>
       </h5>
       <Voice />
+      <Voice1 />
+      <Voice2 />
       <Video />
       <Basic />
 
