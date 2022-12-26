@@ -2,6 +2,7 @@ version: "3.1"
 
 intents:
   - greet
+  - machine
   - goodbye
   - affirm
   - deny
@@ -12,6 +13,9 @@ intents:
 responses:
   utter_greet:
     - text: "Hey! How are you?"
+
+  utter_machine:
+    - text: "Oracle Machine Learning enables you to solve key enterprise business problems and accelerates the development and deployment of data science and machine learning-based solutions. Benefit from scalable, automated, and secure machine learning to meet the challenges of data exploration and preparation as well as model building, evaluation, and deployment. Whether your interests include APIs for SQL, Python, R, or REST, or you prefer no-code user interfaces, Oracle provides support for solution development and deployment"
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
